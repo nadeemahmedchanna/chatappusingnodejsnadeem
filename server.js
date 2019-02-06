@@ -44,9 +44,9 @@ socket.on('messagedetection', (senderNickname,messageContent) => {
 
 
 
+var port = process.env.PORT || 8080;
 
-
-server.listen(8080,()=>{
+server.listen(port,()=>{
 
 console.log('Node app is running on port 3000');
 
